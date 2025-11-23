@@ -1,8 +1,8 @@
 import React from 'react'
 import BrandLogo from '/images/brand_logo.png'
 import ShoeImage from '/images/shoe_image.png'
-import amazonelogo from '/images/amazon.png'
-import flipkartimage from '/images/flipkart.png'
+import Amazonlogo from '/images/amazon.png'
+import Flipkartimage from '/images/flipkart.png'
 const Home = () => {
   return (
     <div>
@@ -30,8 +30,8 @@ const Home = () => {
         <div className="hero-logo">
           <p>Also Available On</p>
           <div className="hero-logo1">
-          <img className="logoAZ" src={flipkartimage} alt="Amazon"></img>
-          <img className="logoFK" src={amazonelogo} alt="Flipkart"></img>
+          <img className="logoAZ" src={Flipkartimage} alt="Amazon"></img>
+          <img className="logoFK" src={Amazonlogo} alt="Flipkart"></img>
           </div>
         </div>
         </div>
